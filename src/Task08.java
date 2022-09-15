@@ -5,6 +5,11 @@ public class Task08 {
 
     public static boolean checkPalindrome(int number) {
 
+//        fool proof (ащита от дураков)
+        if (number <=0) {
+            return false;
+        }
+
         int copy = number;
         int num = 0;
 
